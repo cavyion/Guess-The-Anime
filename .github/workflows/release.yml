@@ -1,0 +1,46 @@
+name: Build Roblox release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out tagged source
+        uses: actions/checkout@v4
+
+      - name: Install pinned Roblox tools
+        uses: CompeyDev/setup-rokit@v0.2.1
+        with:
+          version: v1.2.0
+          token: ${{ github.token }}
+
+      - name: Build Roblox place
+        run: rojo build default.project.json --output Guess-The-Anime.rbxl
+
+      - name: Create or update release with the place file
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" Guess-The-Anime.rbxl --clobber
+
+            release_id="$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/$GITHUB_REF_NAME" --jq .id)"
+            is_draft="$(gh api "repos/$GITHUB_REPOSITORY/releases/$release_id" --jq .draft)"
+            if [ "$is_draft" = "true" ]; then
+              gh api --method PATCH "repos/$GITHUB_REPOSITORY/releases/$release_id" -F draft=false
+            fi
+          else
+            gh release create "$GITHUB_REF_NAME" Guess-The-Anime.rbxl \
+              --verify-tag \
+              --title "$GITHUB_REF_NAME" \
+              --notes "Built from tag $GITHUB_REF_NAME using the tool versions pinned in rokit.toml."
+          fi

@@ -1,0 +1,2218 @@
+{
+  "name": "Guess The Anime",
+  "tree": {
+    "$className": "DataModel",
+    "$path": "assets/DataModelRoots.rbxm",
+    "AvatarSettings": {
+      "$path": "assets/AvatarSettings/service-AvatarSettings-AvatarSettings-87d5951cb104.rbxm"
+    },
+    "InsertService": {
+      "$path": "assets/InsertService/service-InsertService-InsertService-6aa723f1631f.rbxm"
+    },
+    "Lighting": {
+      "$path": "assets/Lighting/service-Lighting-Lighting-96b1203faa50.rbxm"
+    },
+    "ReplicatedFirst": {
+      "$path": "assets/ReplicatedFirst/service-ReplicatedFirst-ReplicatedFirst-409a71097597.rbxm"
+    },
+    "ReplicatedStorage": {
+      "$path": "assets/ReplicatedStorage/service-ReplicatedStorage-ReplicatedStorage-a2266033865f.rbxm",
+      "Assets": {
+        "$path": "assets/ReplicatedStorage/base-Assets-Folder-51306617ca36.rbxm",
+        "Audio": {
+          "$path": "assets/ReplicatedStorage/base-Audio-Folder-cf72bbd47367.rbxm",
+          "Audio": {
+            "$path": "src/ReplicatedStorage/Assets/Audio/Audio.luau"
+          }
+        },
+        "Companions": {
+          "$path": "assets/ReplicatedStorage/base-Companions-Folder-a5d28ff41758.rbxm",
+          "Companions": {
+            "$path": "src/ReplicatedStorage/Assets/Companions/Companions.luau"
+          }
+        },
+        "Tables": {
+          "$path": "assets/ReplicatedStorage/base-Tables-Folder-7c0c5534bdf6.rbxm",
+          "Animes": {
+            "$path": "src/ReplicatedStorage/Assets/Tables/Animes.luau"
+          },
+          "DeveloperProducts": {
+            "$path": "src/ReplicatedStorage/Assets/Tables/DeveloperProducts.luau"
+          },
+          "Images": {
+            "$path": "src/ReplicatedStorage/Assets/Tables/Images.luau"
+          }
+        }
+      },
+      "Packages": {
+        "$path": "assets/ReplicatedStorage/base-Packages-Folder-2b526ea83e00.rbxm",
+        "@GFink": {
+          "$path": "assets/ReplicatedStorage/base-@GFink-Folder-aff421c45754.rbxm",
+          "PlayerConnect": {
+            "$path": "src/ReplicatedStorage/Packages/@GFink/PlayerConnect.luau"
+          }
+        },
+        "@NanoBlox": {
+          "$path": "assets/ReplicatedStorage/base-@NanoBlox-Folder-54cbb177305d.rbxm",
+          "Icon": {
+            "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon.luau",
+            "Attribute": {
+              "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Attribute.luau"
+            },
+            "Elements": {
+              "$path": "assets/ReplicatedStorage/base-Elements-Folder-3385a7d07851.rbxm",
+              "Caption": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Elements/Caption.luau"
+              },
+              "Container": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Elements/Container.luau"
+              },
+              "Dropdown": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Elements/Dropdown.luau"
+              },
+              "Indicator": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Elements/Indicator.luau"
+              },
+              "Menu": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Elements/Menu.luau"
+              },
+              "Notice": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Elements/Notice.luau"
+              },
+              "Selection": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Elements/Selection.luau"
+              },
+              "Widget": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Elements/Widget.luau"
+              }
+            },
+            "Features": {
+              "$path": "assets/ReplicatedStorage/base-Features-Folder-82cffab8155c.rbxm",
+              "Gamepad": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Features/Gamepad.luau"
+              },
+              "Overflow": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Features/Overflow.luau"
+              },
+              "Themes": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Features/Themes.luau",
+                "Classic": {
+                  "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Features/Themes/Classic.luau"
+                },
+                "Default": {
+                  "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Features/Themes/Default.luau"
+                }
+              }
+            },
+            "PackageLink": {
+              "$path": "assets/ReplicatedStorage/tree-PackageLink-PackageLink-3f97b0a4e1e0.rbxm"
+            },
+            "Packages": {
+              "$path": "assets/ReplicatedStorage/base-Packages-Folder-5db77b998d31.rbxm",
+              "GoodSignal": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Packages/GoodSignal.luau"
+              },
+              "Janitor": {
+                "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Packages/Janitor.luau"
+              }
+            },
+            "Reference": {
+              "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Reference.luau"
+            },
+            "Utility": {
+              "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/Utility.luau"
+            },
+            "VERSION": {
+              "$path": "src/ReplicatedStorage/Packages/@NanoBlox/Icon/VERSION.luau"
+            }
+          }
+        },
+        "@Quenty": {
+          "$path": "assets/ReplicatedStorage/base-@Quenty-Folder-13d232b3f0e8.rbxm",
+          "Maid": {
+            "$path": "src/ReplicatedStorage/Packages/@Quenty/Maid.luau"
+          }
+        },
+        "@ffrostfall": {
+          "$path": "assets/ReplicatedStorage/base-@ffrostfall-Folder-08c8849044b0.rbxm",
+          "ByteNet": {
+            "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet.luau",
+            "dataTypes": {
+              "$path": "assets/ReplicatedStorage/base-dataTypes-Folder-e4cc6bb513c7.rbxm",
+              "array": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/array.luau"
+              },
+              "bool": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/bool.luau"
+              },
+              "buff": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/buff.luau"
+              },
+              "cframe": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/cframe.luau"
+              },
+              "float32": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/float32.luau"
+              },
+              "float64": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/float64.luau"
+              },
+              "inst": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/inst.luau"
+              },
+              "int16": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/int16.luau"
+              },
+              "int32": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/int32.luau"
+              },
+              "int8": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/int8.luau"
+              },
+              "map": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/map.luau"
+              },
+              "nothing": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/nothing.luau"
+              },
+              "optional": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/optional.luau"
+              },
+              "string": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/string.luau"
+              },
+              "struct": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/struct.luau"
+              },
+              "uint16": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/uint16.luau"
+              },
+              "uint32": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/uint32.luau"
+              },
+              "uint8": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/uint8.luau"
+              },
+              "unknown": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/unknown.luau"
+              },
+              "vec2": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/vec2.luau"
+              },
+              "vec3": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/dataTypes/vec3.luau"
+              }
+            },
+            "namespaces": {
+              "$path": "assets/ReplicatedStorage/base-namespaces-Folder-7f9c142f86f9.rbxm",
+              "namespace": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/namespaces/namespace.luau"
+              },
+              "namespacesDependencies": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/namespaces/namespacesDependencies.luau"
+              },
+              "packetIDs": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/namespaces/packetIDs.luau"
+              }
+            },
+            "packets": {
+              "$path": "assets/ReplicatedStorage/base-packets-Folder-04ee151e0ad5.rbxm",
+              "definePacket": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/packets/definePacket.luau"
+              },
+              "packet": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/packets/packet.luau"
+              }
+            },
+            "process": {
+              "$path": "assets/ReplicatedStorage/base-process-Folder-24c00b18cc92.rbxm",
+              "bufferWriter": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/process/bufferWriter.luau"
+              },
+              "client": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/process/client.luau"
+              },
+              "read": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/process/read.luau"
+              },
+              "readRefs": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/process/readRefs.luau"
+              },
+              "server": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/process/server.luau"
+              }
+            },
+            "replicated": {
+              "$path": "assets/ReplicatedStorage/base-replicated-Folder-7582ac52debd.rbxm",
+              "replicatedValue": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/replicated/replicatedValue.luau"
+              },
+              "values": {
+                "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/replicated/values.luau"
+              }
+            },
+            "types": {
+              "$path": "src/ReplicatedStorage/Packages/@ffrostfall/ByteNet/types.luau"
+            }
+          }
+        },
+        "@kabuyon": {
+          "$path": "assets/ReplicatedStorage/base-@kabuyon-Folder-3bc2dd6a88c7.rbxm",
+          "Fetcher": {
+            "$path": "src/ReplicatedStorage/Packages/@kabuyon/Fetcher.luau"
+          },
+          "Orbit": {
+            "$path": "src/ReplicatedStorage/Packages/@kabuyon/Orbit.luau"
+          },
+          "Resonate": {
+            "$path": "src/ReplicatedStorage/Packages/@kabuyon/Resonate.luau"
+          },
+          "TFMv2": {
+            "$path": "src/ReplicatedStorage/Packages/@kabuyon/TFMv2.luau"
+          },
+          "Tween": {
+            "$path": "src/ReplicatedStorage/Packages/@kabuyon/Tween.luau"
+          }
+        },
+        "@loleris": {
+          "$path": "assets/ReplicatedStorage/base-@loleris-Folder-33a6104abe1c.rbxm",
+          "MadworkMaid": {
+            "$path": "src/ReplicatedStorage/Packages/@loleris/MadworkMaid.luau"
+          },
+          "MadworkScriptSignal": {
+            "$path": "src/ReplicatedStorage/Packages/@loleris/MadworkScriptSignal.luau"
+          },
+          "RateLimiter": {
+            "$path": "src/ReplicatedStorage/Packages/@loleris/RateLimiter.luau"
+          },
+          "ReplicaController": {
+            "$path": "src/ReplicatedStorage/Packages/@loleris/ReplicaController.luau"
+          }
+        },
+        "ReactLua": {
+          "$path": "assets/ReplicatedStorage/base-ReactLua-Folder-ea14a3b8de39.rbxm",
+          "React": {
+            "$path": "src/ReplicatedStorage/Packages/ReactLua/React.luau"
+          },
+          "ReactRoblox": {
+            "$path": "src/ReplicatedStorage/Packages/ReactLua/ReactRoblox.luau"
+          },
+          "ReactSpring": {
+            "$path": "src/ReplicatedStorage/Packages/ReactLua/ReactSpring.luau"
+          },
+          "_Index": {
+            "$path": "assets/ReplicatedStorage/base-_Index-Folder-1871d7fb3f65.rbxm",
+            "chriscerie_react-spring@2.0.0": {
+              "$path": "assets/ReplicatedStorage/base-chriscerie_react-spring@2.0.0-Folder-f1ba94d82482.rbxm",
+              "Promise": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/Promise.luau"
+              },
+              "React": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/React.luau"
+              },
+              "ReactRoblox": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/ReactRoblox.luau"
+              },
+              "TestEZ": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/TestEZ.luau"
+              },
+              "react-spring": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring.luau",
+                "Animation": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/Animation.luau"
+                },
+                "AnimationConfig": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/AnimationConfig.luau"
+                },
+                "AnimationConfig.spec": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/AnimationConfig.spec.luau"
+                },
+                "Controller": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/Controller.luau"
+                },
+                "Controller.spec": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/Controller.spec.luau"
+                },
+                "Promise": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/Promise.luau"
+                },
+                "React": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/React.luau"
+                },
+                "Signal": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/Signal.luau"
+                },
+                "SpringValue": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/SpringValue.luau"
+                },
+                "constants": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/constants.luau"
+                },
+                "helpers": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/helpers.luau"
+                },
+                "hooks": {
+                  "$path": "assets/ReplicatedStorage/base-hooks-Folder-250cd808c547.rbxm",
+                  "useSpring": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/hooks/useSpring.luau"
+                  },
+                  "useSpring.spec": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/hooks/useSpring.spec.luau"
+                  },
+                  "useSprings": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/hooks/useSprings.luau"
+                  },
+                  "useSprings.spec": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/hooks/useSprings.spec.luau"
+                  },
+                  "useTrail": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/hooks/useTrail.luau"
+                  }
+                },
+                "isRoact17": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/isRoact17.luau"
+                },
+                "types": {
+                  "$path": "assets/ReplicatedStorage/base-types-Folder-d9cea0719c51.rbxm",
+                  "common": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/types/common.luau"
+                  }
+                },
+                "util": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/util.luau",
+                  "map": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/util/map.luau"
+                  },
+                  "merge": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/chriscerie_react-spring@2.0.0/react-spring/util/merge.luau"
+                  }
+                }
+              }
+            },
+            "evaera_promise@4.0.0": {
+              "$path": "assets/ReplicatedStorage/base-evaera_promise@4.0.0-Folder-957ae1e16eec.rbxm",
+              "promise": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/evaera_promise@4.0.0/promise.luau",
+                "init.spec": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/evaera_promise@4.0.0/promise/init.spec.luau"
+                }
+              }
+            },
+            "jsdotlua_boolean@1.2.6": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_boolean@1.2.6-Folder-9c1b98c97d59.rbxm",
+              "boolean": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_boolean@1.2.6/boolean.luau",
+                "toJSBoolean": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_boolean@1.2.6/boolean/toJSBoolean.luau"
+                }
+              },
+              "number": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_boolean@1.2.6/number.luau"
+              }
+            },
+            "jsdotlua_collections@1.2.6": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_collections@1.2.6-Folder-f755dce7dc9b.rbxm",
+              "collections": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections.luau",
+                "Array": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array.luau",
+                  "concat": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/concat.luau"
+                  },
+                  "every": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/every.luau"
+                  },
+                  "filter": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/filter.luau"
+                  },
+                  "find": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/find.luau"
+                  },
+                  "findIndex": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/findIndex.luau"
+                  },
+                  "flat": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/flat.luau"
+                  },
+                  "flatMap": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/flatMap.luau"
+                  },
+                  "forEach": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/forEach.luau"
+                  },
+                  "from": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/from.luau",
+                    "fromArray": {
+                      "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/from/fromArray.luau"
+                    },
+                    "fromMap": {
+                      "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/from/fromMap.luau"
+                    },
+                    "fromSet": {
+                      "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/from/fromSet.luau"
+                    },
+                    "fromString": {
+                      "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/from/fromString.luau"
+                    }
+                  },
+                  "includes": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/includes.luau"
+                  },
+                  "indexOf": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/indexOf.luau"
+                  },
+                  "isArray": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/isArray.luau"
+                  },
+                  "join": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/join.luau"
+                  },
+                  "map": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/map.luau"
+                  },
+                  "reduce": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/reduce.luau"
+                  },
+                  "reverse": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/reverse.luau"
+                  },
+                  "shift": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/shift.luau"
+                  },
+                  "slice": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/slice.luau"
+                  },
+                  "some": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/some.luau"
+                  },
+                  "sort": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/sort.luau"
+                  },
+                  "splice": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/splice.luau"
+                  },
+                  "unshift": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Array/unshift.luau"
+                  }
+                },
+                "Map": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Map.luau",
+                  "Map": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Map/Map.luau"
+                  },
+                  "coerceToMap": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Map/coerceToMap.luau"
+                  },
+                  "coerceToTable": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Map/coerceToTable.luau"
+                  }
+                },
+                "Object": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Object.luau",
+                  "None": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Object/None.luau"
+                  },
+                  "assign": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Object/assign.luau"
+                  },
+                  "entries": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Object/entries.luau"
+                  },
+                  "freeze": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Object/freeze.luau"
+                  },
+                  "is": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Object/is.luau"
+                  },
+                  "isFrozen": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Object/isFrozen.luau"
+                  },
+                  "keys": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Object/keys.luau"
+                  },
+                  "preventExtensions": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Object/preventExtensions.luau"
+                  },
+                  "seal": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Object/seal.luau"
+                  },
+                  "values": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Object/values.luau"
+                  }
+                },
+                "Set": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/Set.luau"
+                },
+                "WeakMap": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/WeakMap.luau"
+                },
+                "inspect": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/collections/inspect.luau"
+                }
+              },
+              "es7-types": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/es7-types.luau"
+              },
+              "instance-of": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_collections@1.2.6/instance-of.luau"
+              }
+            },
+            "jsdotlua_console@1.2.6": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_console@1.2.6-Folder-43914d8ded2b.rbxm",
+              "collections": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_console@1.2.6/collections.luau"
+              },
+              "console": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_console@1.2.6/console.luau",
+                "makeConsoleImpl": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_console@1.2.6/console/makeConsoleImpl.luau"
+                }
+              }
+            },
+            "jsdotlua_es7-types@1.2.6": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_es7-types@1.2.6-Folder-84ff9efb5880.rbxm",
+              "es7-types": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_es7-types@1.2.6/es7-types.luau"
+              }
+            },
+            "jsdotlua_instance-of@1.2.6": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_instance-of@1.2.6-Folder-ebc9c01100d2.rbxm",
+              "instance-of": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_instance-of@1.2.6/instance-of.luau",
+                "instanceof": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_instance-of@1.2.6/instance-of/instanceof.luau"
+                }
+              }
+            },
+            "jsdotlua_luau-polyfill@1.2.6": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_luau-polyfill@1.2.6-Folder-bc48cd83e509.rbxm",
+              "boolean": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/boolean.luau"
+              },
+              "collections": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/collections.luau"
+              },
+              "console": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/console.luau"
+              },
+              "es7-types": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/es7-types.luau"
+              },
+              "instance-of": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/instance-of.luau"
+              },
+              "luau-polyfill": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/luau-polyfill.luau",
+                "AssertionError": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/luau-polyfill/AssertionError.luau",
+                  "AssertionError.global": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/luau-polyfill/AssertionError/AssertionError.global.luau"
+                  }
+                },
+                "Error": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/luau-polyfill/Error.luau",
+                  "Error.global": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/luau-polyfill/Error/Error.global.luau"
+                  }
+                },
+                "Promise": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/luau-polyfill/Promise.luau"
+                },
+                "encodeURIComponent": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/luau-polyfill/encodeURIComponent.luau"
+                },
+                "extends": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/luau-polyfill/extends.luau"
+                }
+              },
+              "math": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/math.luau"
+              },
+              "number": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/number.luau"
+              },
+              "string": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/string.luau"
+              },
+              "symbol-luau": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/symbol-luau.luau"
+              },
+              "timers": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_luau-polyfill@1.2.6/timers.luau"
+              }
+            },
+            "jsdotlua_math@1.2.6": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_math@1.2.6-Folder-ede8fde153b4.rbxm",
+              "math": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_math@1.2.6/math.luau",
+                "clz32": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_math@1.2.6/math/clz32.luau"
+                }
+              }
+            },
+            "jsdotlua_number@1.2.6": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_number@1.2.6-Folder-3e87bd874cc2.rbxm",
+              "number": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_number@1.2.6/number.luau",
+                "MAX_SAFE_INTEGER": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_number@1.2.6/number/MAX_SAFE_INTEGER.luau"
+                },
+                "MIN_SAFE_INTEGER": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_number@1.2.6/number/MIN_SAFE_INTEGER.luau"
+                },
+                "isFinite": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_number@1.2.6/number/isFinite.luau"
+                },
+                "isInteger": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_number@1.2.6/number/isInteger.luau"
+                },
+                "isNaN": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_number@1.2.6/number/isNaN.luau"
+                },
+                "isSafeInteger": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_number@1.2.6/number/isSafeInteger.luau"
+                },
+                "toExponential": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_number@1.2.6/number/toExponential.luau"
+                }
+              }
+            },
+            "jsdotlua_promise@3.5.2": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_promise@3.5.2-Folder-94b068fc140d.rbxm",
+              "promise": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_promise@3.5.2/promise.luau",
+                "init.spec": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_promise@3.5.2/promise/init.spec.luau"
+                }
+              }
+            },
+            "jsdotlua_react-reconciler@17.1.0": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_react-reconciler@17.1.0-Folder-b36a6756b3e8.rbxm",
+              "luau-polyfill": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/luau-polyfill.luau"
+              },
+              "promise": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/promise.luau"
+              },
+              "react": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react.luau"
+              },
+              "react-reconciler": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler.luau",
+                "DebugTracing": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/DebugTracing.luau"
+                },
+                "MaxInts": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/MaxInts.luau"
+                },
+                "ReactCapturedValue": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactCapturedValue.luau"
+                },
+                "ReactChildFiber.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactChildFiber.new.luau"
+                },
+                "ReactCurrentFiber": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactCurrentFiber.luau"
+                },
+                "ReactFiber.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiber.new.luau"
+                },
+                "ReactFiberBeginWork.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberBeginWork.new.luau"
+                },
+                "ReactFiberClassComponent.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberClassComponent.new.luau"
+                },
+                "ReactFiberCommitWork.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberCommitWork.new.luau"
+                },
+                "ReactFiberCompleteWork.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberCompleteWork.new.luau"
+                },
+                "ReactFiberComponentStack": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberComponentStack.luau"
+                },
+                "ReactFiberContext.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberContext.new.luau"
+                },
+                "ReactFiberDevToolsHook.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberDevToolsHook.new.luau"
+                },
+                "ReactFiberErrorDialog": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberErrorDialog.luau"
+                },
+                "ReactFiberErrorLogger": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberErrorLogger.luau"
+                },
+                "ReactFiberFlags": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberFlags.luau"
+                },
+                "ReactFiberHooks.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberHooks.new.luau"
+                },
+                "ReactFiberHostConfig": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberHostConfig.luau"
+                },
+                "ReactFiberHostContext.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberHostContext.new.luau"
+                },
+                "ReactFiberHotReloading.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberHotReloading.new.luau"
+                },
+                "ReactFiberHydrationContext.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberHydrationContext.new.luau"
+                },
+                "ReactFiberLane": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberLane.luau"
+                },
+                "ReactFiberLazyComponent.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberLazyComponent.new.luau"
+                },
+                "ReactFiberNewContext.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberNewContext.new.luau"
+                },
+                "ReactFiberOffscreenComponent": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberOffscreenComponent.luau"
+                },
+                "ReactFiberReconciler": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberReconciler.luau"
+                },
+                "ReactFiberReconciler.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberReconciler.new.luau"
+                },
+                "ReactFiberRoot.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberRoot.new.luau"
+                },
+                "ReactFiberSchedulerPriorities.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberSchedulerPriorities.roblox.luau"
+                },
+                "ReactFiberStack.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberStack.new.luau"
+                },
+                "ReactFiberSuspenseComponent.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberSuspenseComponent.new.luau"
+                },
+                "ReactFiberSuspenseContext.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberSuspenseContext.new.luau"
+                },
+                "ReactFiberThrow.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberThrow.new.luau"
+                },
+                "ReactFiberTransition": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberTransition.luau"
+                },
+                "ReactFiberTreeReflection": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberTreeReflection.luau"
+                },
+                "ReactFiberUnwindWork.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberUnwindWork.new.luau"
+                },
+                "ReactFiberWorkInProgress": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberWorkInProgress.luau"
+                },
+                "ReactFiberWorkLoop.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactFiberWorkLoop.new.luau"
+                },
+                "ReactHookEffectTags": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactHookEffectTags.luau"
+                },
+                "ReactInternalTypes": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactInternalTypes.luau"
+                },
+                "ReactMutableSource.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactMutableSource.new.luau"
+                },
+                "ReactPortal": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactPortal.luau"
+                },
+                "ReactProfilerTimer.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactProfilerTimer.new.luau"
+                },
+                "ReactRootTags": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactRootTags.luau"
+                },
+                "ReactStrictModeWarnings.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactStrictModeWarnings.new.luau"
+                },
+                "ReactTestSelectors": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactTestSelectors.luau"
+                },
+                "ReactTypeOfMode": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactTypeOfMode.luau"
+                },
+                "ReactUpdateQueue.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactUpdateQueue.new.luau"
+                },
+                "ReactWorkTags": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/ReactWorkTags.luau"
+                },
+                "SchedulerWithReactIntegration.new": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/SchedulerWithReactIntegration.new.luau"
+                },
+                "SchedulingProfiler": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/SchedulingProfiler.luau"
+                },
+                "forks": {
+                  "$path": "assets/ReplicatedStorage/base-forks-Folder-46c277c5e3c4.rbxm",
+                  "ReactFiberHostConfig.test": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/react-reconciler/forks/ReactFiberHostConfig.test.luau"
+                  }
+                }
+              },
+              "scheduler": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/scheduler.luau"
+              },
+              "shared": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-reconciler@17.1.0/shared.luau"
+              }
+            },
+            "jsdotlua_react-roblox@17.1.0": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_react-roblox@17.1.0-Folder-21b5e5be6724.rbxm",
+              "luau-polyfill": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/luau-polyfill.luau"
+              },
+              "react": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react.luau"
+              },
+              "react-reconciler": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-reconciler.luau"
+              },
+              "react-roblox": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-roblox.luau",
+                "ReactReconciler.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-roblox/ReactReconciler.roblox.luau"
+                },
+                "client": {
+                  "$path": "assets/ReplicatedStorage/base-client-Folder-d01482896f53.rbxm",
+                  "ReactRoblox": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-roblox/client/ReactRoblox.luau"
+                  },
+                  "ReactRobloxComponent": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-roblox/client/ReactRobloxComponent.luau"
+                  },
+                  "ReactRobloxComponentTree": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-roblox/client/ReactRobloxComponentTree.luau"
+                  },
+                  "ReactRobloxHostConfig": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-roblox/client/ReactRobloxHostConfig.luau"
+                  },
+                  "ReactRobloxHostTypes.roblox": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-roblox/client/ReactRobloxHostTypes.roblox.luau"
+                  },
+                  "ReactRobloxRoot": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-roblox/client/ReactRobloxRoot.luau"
+                  },
+                  "roblox": {
+                    "$path": "assets/ReplicatedStorage/base-roblox-Folder-766f6fd760d1.rbxm",
+                    "RobloxComponentProps": {
+                      "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-roblox/client/roblox/RobloxComponentProps.luau"
+                    },
+                    "SingleEventManager": {
+                      "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-roblox/client/roblox/SingleEventManager.luau"
+                    },
+                    "getDefaultInstanceProperty": {
+                      "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/react-roblox/client/roblox/getDefaultInstanceProperty.luau"
+                    }
+                  }
+                }
+              },
+              "scheduler": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/scheduler.luau"
+              },
+              "shared": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react-roblox@17.1.0/shared.luau"
+              }
+            },
+            "jsdotlua_react@17.1.0": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_react@17.1.0-Folder-b9c02e32b2cd.rbxm",
+              "luau-polyfill": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/luau-polyfill.luau"
+              },
+              "react": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react.luau",
+                "None.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/None.roblox.luau"
+                },
+                "React": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/React.luau"
+                },
+                "ReactBaseClasses": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactBaseClasses.luau"
+                },
+                "ReactBinding.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactBinding.roblox.luau"
+                },
+                "ReactChildren": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactChildren.luau"
+                },
+                "ReactContext": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactContext.luau"
+                },
+                "ReactCreateRef": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactCreateRef.luau"
+                },
+                "ReactElement": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactElement.luau"
+                },
+                "ReactElementValidator": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactElementValidator.luau"
+                },
+                "ReactForwardRef": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactForwardRef.luau"
+                },
+                "ReactHooks": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactHooks.luau"
+                },
+                "ReactLazy": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactLazy.luau"
+                },
+                "ReactMemo": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactMemo.luau"
+                },
+                "ReactMutableSource": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactMutableSource.luau"
+                },
+                "ReactNoopUpdateQueue": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/ReactNoopUpdateQueue.luau"
+                },
+                "createSignal.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/react/createSignal.roblox.luau"
+                }
+              },
+              "shared": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_react@17.1.0/shared.luau"
+              }
+            },
+            "jsdotlua_scheduler@17.1.0": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_scheduler@17.1.0-Folder-643144f588bf.rbxm",
+              "luau-polyfill": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/luau-polyfill.luau"
+              },
+              "scheduler": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler.luau",
+                "Scheduler": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler/Scheduler.luau"
+                },
+                "SchedulerFeatureFlags": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler/SchedulerFeatureFlags.luau"
+                },
+                "SchedulerHostConfig": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler/SchedulerHostConfig.luau"
+                },
+                "SchedulerMinHeap": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler/SchedulerMinHeap.luau"
+                },
+                "SchedulerPriorities": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler/SchedulerPriorities.luau"
+                },
+                "SchedulerProfiling": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler/SchedulerProfiling.luau"
+                },
+                "Tracing": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler/Tracing.luau"
+                },
+                "TracingSubscriptions": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler/TracingSubscriptions.luau"
+                },
+                "forks": {
+                  "$path": "assets/ReplicatedStorage/base-forks-Folder-3970a8f65c69.rbxm",
+                  "SchedulerHostConfig.default": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler/forks/SchedulerHostConfig.default.luau"
+                  },
+                  "SchedulerHostConfig.mock": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler/forks/SchedulerHostConfig.mock.luau"
+                  }
+                },
+                "unstable_mock": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/scheduler/unstable_mock.luau"
+                }
+              },
+              "shared": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_scheduler@17.1.0/shared.luau"
+              }
+            },
+            "jsdotlua_shared@17.1.0": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_shared@17.1.0-Folder-7ac06c45e569.rbxm",
+              "luau-polyfill": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/luau-polyfill.luau"
+              },
+              "shared": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared.luau",
+                "ConsolePatchingDev.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ConsolePatchingDev.roblox.luau"
+                },
+                "ErrorHandling.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ErrorHandling.roblox.luau"
+                },
+                "ExecutionEnvironment": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ExecutionEnvironment.luau"
+                },
+                "PropMarkers": {
+                  "$path": "assets/ReplicatedStorage/base-PropMarkers-Folder-f539d0a26e18.rbxm",
+                  "Change": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/PropMarkers/Change.luau"
+                  },
+                  "Event": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/PropMarkers/Event.luau"
+                  },
+                  "Tag": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/PropMarkers/Tag.luau"
+                  }
+                },
+                "ReactComponentStackFrame": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactComponentStackFrame.luau"
+                },
+                "ReactElementType": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactElementType.luau"
+                },
+                "ReactErrorUtils": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactErrorUtils.luau"
+                },
+                "ReactFeatureFlags": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactFeatureFlags.luau"
+                },
+                "ReactFiberHostConfig": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactFiberHostConfig.luau",
+                  "WithNoHydration": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactFiberHostConfig/WithNoHydration.luau"
+                  },
+                  "WithNoPersistence": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactFiberHostConfig/WithNoPersistence.luau"
+                  },
+                  "WithNoTestSelectors": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactFiberHostConfig/WithNoTestSelectors.luau"
+                  }
+                },
+                "ReactInstanceMap": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactInstanceMap.luau"
+                },
+                "ReactSharedInternals": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactSharedInternals.luau",
+                  "IsSomeRendererActing": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactSharedInternals/IsSomeRendererActing.luau"
+                  },
+                  "ReactCurrentBatchConfig": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactSharedInternals/ReactCurrentBatchConfig.luau"
+                  },
+                  "ReactCurrentDispatcher": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactSharedInternals/ReactCurrentDispatcher.luau"
+                  },
+                  "ReactCurrentOwner": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactSharedInternals/ReactCurrentOwner.luau"
+                  },
+                  "ReactDebugCurrentFrame": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactSharedInternals/ReactDebugCurrentFrame.luau"
+                  }
+                },
+                "ReactSymbols": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactSymbols.luau"
+                },
+                "ReactTypes": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactTypes.luau"
+                },
+                "ReactVersion": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/ReactVersion.luau"
+                },
+                "Symbol.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/Symbol.roblox.luau"
+                },
+                "Type.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/Type.roblox.luau"
+                },
+                "UninitializedState.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/UninitializedState.roblox.luau"
+                },
+                "checkPropTypes": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/checkPropTypes.luau"
+                },
+                "console": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/console.luau"
+                },
+                "consoleWithStackDev": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/consoleWithStackDev.luau"
+                },
+                "enqueueTask.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/enqueueTask.roblox.luau"
+                },
+                "flowtypes.roblox": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/flowtypes.roblox.luau"
+                },
+                "formatProdErrorMessage": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/formatProdErrorMessage.luau"
+                },
+                "getComponentName": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/getComponentName.luau"
+                },
+                "invariant": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/invariant.luau"
+                },
+                "invokeGuardedCallbackImpl": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/invokeGuardedCallbackImpl.luau"
+                },
+                "isValidElementType": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/isValidElementType.luau"
+                },
+                "objectIs": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/objectIs.luau"
+                },
+                "shallowEqual": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_shared@17.1.0/shared/shallowEqual.luau"
+                }
+              }
+            },
+            "jsdotlua_string@1.2.6": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_string@1.2.6-Folder-75c58e4ce975.rbxm",
+              "es7-types": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/es7-types.luau"
+              },
+              "number": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/number.luau"
+              },
+              "string": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string.luau",
+                "charCodeAt": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/charCodeAt.luau"
+                },
+                "endsWith": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/endsWith.luau"
+                },
+                "findOr": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/findOr.luau"
+                },
+                "includes": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/includes.luau"
+                },
+                "indexOf": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/indexOf.luau"
+                },
+                "lastIndexOf": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/lastIndexOf.luau"
+                },
+                "slice": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/slice.luau"
+                },
+                "split": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/split.luau"
+                },
+                "startsWith": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/startsWith.luau"
+                },
+                "substr": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/substr.luau"
+                },
+                "trim": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/trim.luau"
+                },
+                "trimEnd": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/trimEnd.luau"
+                },
+                "trimStart": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_string@1.2.6/string/trimStart.luau"
+                }
+              }
+            },
+            "jsdotlua_symbol-luau@1.0.1": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_symbol-luau@1.0.1-Folder-82b149f8f31b.rbxm",
+              "symbol-luau": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_symbol-luau@1.0.1/symbol-luau.luau",
+                "Registry.global": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_symbol-luau@1.0.1/symbol-luau/Registry.global.luau"
+                },
+                "Symbol": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_symbol-luau@1.0.1/symbol-luau/Symbol.luau"
+                }
+              }
+            },
+            "jsdotlua_timers@1.2.6": {
+              "$path": "assets/ReplicatedStorage/base-jsdotlua_timers@1.2.6-Folder-1d14832494e5.rbxm",
+              "collections": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_timers@1.2.6/collections.luau"
+              },
+              "timers": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_timers@1.2.6/timers.luau",
+                "makeIntervalImpl": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_timers@1.2.6/timers/makeIntervalImpl.luau"
+                },
+                "makeTimerImpl": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/jsdotlua_timers@1.2.6/timers/makeTimerImpl.luau"
+                }
+              }
+            },
+            "roblox_testez@0.4.1": {
+              "$path": "assets/ReplicatedStorage/base-roblox_testez@0.4.1-Folder-ad58463b60e1.rbxm",
+              "testez": {
+                "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez.luau",
+                "Context": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/Context.luau"
+                },
+                "Expectation": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/Expectation.luau"
+                },
+                "ExpectationContext": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/ExpectationContext.luau"
+                },
+                "LifecycleHooks": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/LifecycleHooks.luau"
+                },
+                "Reporters": {
+                  "$path": "assets/ReplicatedStorage/base-Reporters-Folder-7a9522be6adf.rbxm",
+                  "TeamCityReporter": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/Reporters/TeamCityReporter.luau"
+                  },
+                  "TextReporter": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/Reporters/TextReporter.luau"
+                  },
+                  "TextReporterQuiet": {
+                    "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/Reporters/TextReporterQuiet.luau"
+                  }
+                },
+                "TestBootstrap": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/TestBootstrap.luau"
+                },
+                "TestEnum": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/TestEnum.luau"
+                },
+                "TestPlan": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/TestPlan.luau"
+                },
+                "TestPlanner": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/TestPlanner.luau"
+                },
+                "TestResults": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/TestResults.luau"
+                },
+                "TestRunner": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/TestRunner.luau"
+                },
+                "TestSession": {
+                  "$path": "src/ReplicatedStorage/Packages/ReactLua/_Index/roblox_testez@0.4.1/testez/TestSession.luau"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Shared": {
+        "$path": "assets/ReplicatedStorage/base-Shared-Folder-e310e36c3dc0.rbxm",
+        "Hello": {
+          "$path": "src/ReplicatedStorage/Shared/Hello.luau"
+        }
+      },
+      "packets": {
+        "$path": "src/ReplicatedStorage/packets.luau"
+      }
+    },
+    "ServerScriptService": {
+      "$path": "assets/ServerScriptService/service-ServerScriptService-ServerScriptService-9602ef297f66.rbxm",
+      "Packages": {
+        "$path": "assets/ServerScriptService/base-Packages-Folder-946a9ee9e16a.rbxm",
+        "DataStore2": {
+          "$path": "src/ServerScriptService/Packages/DataStore2.luau",
+          "Constants": {
+            "$path": "src/ServerScriptService/Packages/DataStore2/Constants.luau"
+          },
+          "DataStoreServiceRetriever": {
+            "$path": "src/ServerScriptService/Packages/DataStore2/DataStoreServiceRetriever.luau"
+          },
+          "IsPlayer": {
+            "$path": "src/ServerScriptService/Packages/DataStore2/IsPlayer.luau"
+          },
+          "Promise": {
+            "$path": "src/ServerScriptService/Packages/DataStore2/Promise.luau"
+          },
+          "SavingMethods": {
+            "$path": "src/ServerScriptService/Packages/DataStore2/SavingMethods.luau",
+            "OrderedBackups": {
+              "$path": "src/ServerScriptService/Packages/DataStore2/SavingMethods/OrderedBackups.luau"
+            },
+            "Standard": {
+              "$path": "src/ServerScriptService/Packages/DataStore2/SavingMethods/Standard.luau"
+            }
+          },
+          "Settings": {
+            "$path": "src/ServerScriptService/Packages/DataStore2/Settings.luau"
+          },
+          "TableUtil": {
+            "$path": "src/ServerScriptService/Packages/DataStore2/TableUtil.luau"
+          },
+          "Verifier": {
+            "$path": "src/ServerScriptService/Packages/DataStore2/Verifier.luau"
+          }
+        },
+        "ProfileService": {
+          "$path": "src/ServerScriptService/Packages/ProfileService.luau"
+        },
+        "ReplicaService": {
+          "$path": "src/ServerScriptService/Packages/ReplicaService.luau"
+        },
+        "ReplicaServiceListeners": {
+          "$path": "src/ServerScriptService/Packages/ReplicaServiceListeners.luau"
+        }
+      },
+      "Runtime": {
+        "$path": "src/ServerScriptService/Runtime.server.luau"
+      },
+      "Server": {
+        "$path": "src/ServerScriptService/Server.server.luau"
+      },
+      "Services": {
+        "$path": "assets/ServerScriptService/base-Services-Folder-ae3bfb349bc6.rbxm",
+        "CompanionService": {
+          "$path": "src/ServerScriptService/Services/CompanionService.luau"
+        },
+        "DataManager": {
+          "$path": "src/ServerScriptService/Services/DataManager.luau",
+          "PROFILE_SERVICE_TEMPLATE": {
+            "$path": "src/ServerScriptService/Services/DataManager/PROFILE_SERVICE_TEMPLATE.luau"
+          }
+        },
+        "LeaderboardService": {
+          "$path": "src/ServerScriptService/Services/LeaderboardService.luau",
+          "BillboardGui": {
+            "$path": "assets/ServerScriptService/tree-BillboardGui-BillboardGui-5c698f53213b.rbxm"
+          },
+          "Leaderboard_User": {
+            "$path": "assets/ServerScriptService/tree-Leaderboard_User-Frame-c4c0b8a03c2e.rbxm"
+          }
+        },
+        "MapService": {
+          "$path": "src/ServerScriptService/Services/MapService.luau"
+        },
+        "MarketMaster": {
+          "$path": "src/ServerScriptService/Services/MarketMaster.luau"
+        },
+        "PlayerHandler": {
+          "$path": "src/ServerScriptService/Services/PlayerHandler.luau"
+        },
+        "PlayerInteractionService": {
+          "$path": "src/ServerScriptService/Services/PlayerInteractionService.luau",
+          "AnswerService": {
+            "$path": "src/ServerScriptService/Services/PlayerInteractionService/AnswerService.luau"
+          }
+        },
+        "ReplicaServerHandler": {
+          "$path": "src/ServerScriptService/Services/ReplicaServerHandler.luau"
+        },
+        "ServerHandler": {
+          "$path": "src/ServerScriptService/Services/ServerHandler.luau"
+        }
+      },
+      "Whitelist": {
+        "$path": "src/ServerScriptService/Whitelist.server.luau",
+        "$properties": {
+          "Disabled": true
+        }
+      }
+    },
+    "ServerStorage": {
+      "$path": "assets/ServerStorage/service-ServerStorage-ServerStorage-385245b1213d.rbxm",
+      "Assets": {
+        "$path": "assets/ServerStorage/base-Assets-Folder-c2c85d51b748.rbxm",
+        "Animations": {
+          "$path": "assets/ServerStorage/base-Animations-Folder-aa20e5408213.rbxm",
+          "CompanionAnimations": {
+            "$path": "assets/ServerStorage/base-CompanionAnimations-Folder-73047f3a4d94.rbxm",
+            "Astolfo": {
+              "$path": "src/ServerStorage/Assets/Animations/CompanionAnimations/Astolfo.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-e2cde15455d2.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-5d19967d6ffb.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-8410167b470f.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-cf74a5b0f838.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-22c9bbbcbe1a.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-2abb8643fc49.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-61a3801f0603.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-6e13613b3725.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-db84e3a7f205.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-42dc1639526d.rbxm"
+              }
+            }
+          }
+        },
+        "Companions": {
+          "$path": "assets/ServerStorage/base-Companions-Folder-22862dd81a8c.rbxm",
+          "Ainz": {
+            "$path": "assets/ServerStorage/base-Ainz-Model-6122bb9bd74b.rbxm",
+            "Ainz": {
+              "$path": "src/ServerStorage/Assets/Companions/Ainz/Ainz.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-39bfb1ddeb89.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-08f550453b03.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-3c446c0e0be0.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-39ebd19481b0.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-e24540fac633.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-8a744cfc441d.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-2dc6b974bb4c.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-56191d8d4389.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-9943c58de3e0.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-8a828af07d6a.rbxm"
+              }
+            }
+          },
+          "Alanna": {
+            "$path": "assets/ServerStorage/base-Alanna-Model-1e4b3ec70b04.rbxm",
+            "Alanna": {
+              "$path": "src/ServerStorage/Assets/Companions/Alanna/Alanna.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-cfeac40911c7.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-1da7d8c786e0.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-72aa07207f7d.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-dd962771edf8.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-8cfda8caf475.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-23667ada446b.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-0c4d06e1f5f4.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-cb48b9d5a98e.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-84a52ae60056.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-be2a1cc30c7f.rbxm"
+              }
+            }
+          },
+          "Astolfo": {
+            "$path": "assets/ServerStorage/base-Astolfo-Model-6280f62b6ac0.rbxm",
+            "Astolfo": {
+              "$path": "src/ServerStorage/Assets/Companions/Astolfo/Astolfo.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-849c5bc9a723.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-9996436a424f.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-097715990fb1.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-62b785967a4b.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-e35d877006e4.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-37990cf8a5a6.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-a391c182d015.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-8b14b78de417.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-752d995f7b71.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-afd58ac8fe8d.rbxm"
+              }
+            }
+          },
+          "Ichistop": {
+            "$path": "assets/ServerStorage/base-Ichistop-Model-904f16b51731.rbxm",
+            "Default": {
+              "$path": "src/ServerStorage/Assets/Companions/Ichistop/Default.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-22afd7b5ec82.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-551930e6c278.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-3aced60e21ce.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-eab491559705.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-d13e1b313e79.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-b76b640e9b64.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-c50b6506d83f.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-3594f68e7e2b.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-356a1c2079d4.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-31f9b2ccb259.rbxm"
+              }
+            }
+          },
+          "Koku": {
+            "$path": "assets/ServerStorage/base-Koku-Model-74a8bfb7df7c.rbxm",
+            "Default": {
+              "$path": "src/ServerStorage/Assets/Companions/Koku/Default.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-cddd74cc07cb.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-d8938add396f.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-c8188ca8cdd7.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-b277e130176d.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-85c54fa9bb60.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-c5524a92ff66.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-231037663204.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-2cd897981f37.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-3d856f400155.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-5f596dbd02b5.rbxm"
+              }
+            }
+          },
+          "Kudara": {
+            "$path": "assets/ServerStorage/base-Kudara-Model-f4f5c8ef458a.rbxm",
+            "Kudara": {
+              "$path": "src/ServerStorage/Assets/Companions/Kudara/Kudara.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-3551abe587db.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-fea5f9d5337a.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-8d7a30d2d523.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-6e4cbf9f33e7.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-3caf8a81366f.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-e7a8a1771605.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-8efe77fd74cc.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-94f7ca0a41de.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-cef194f4bf0e.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-0044af4f71ff.rbxm"
+              }
+            }
+          },
+          "Midoriya": {
+            "$path": "assets/ServerStorage/base-Midoriya-Model-52571e0a1e45.rbxm",
+            "Midoriya": {
+              "$path": "src/ServerStorage/Assets/Companions/Midoriya/Midoriya.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-1149ab087d9e.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-ac4d79a57c84.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-77fc6d0af5cf.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-655953deb0d2.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-4d199ce0ed92.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-a88baabc281b.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-3839acf77240.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-b0f8c514f543.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-30b1254152df.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-e930338774e7.rbxm"
+              }
+            }
+          },
+          "Miku": {
+            "$path": "assets/ServerStorage/base-Miku-Model-787f14cacf26.rbxm",
+            "Miku": {
+              "$path": "src/ServerStorage/Assets/Companions/Miku/Miku.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-adcb9d4ca1de.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-f6bfa02a2e56.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-5540c738e947.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-833b17418d3b.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-31e01596d157.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-0dc638b9e6f4.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-f8efd9441f49.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-bd5c88c95891.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-08d660b5b607.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-ce35712bdf23.rbxm"
+              }
+            }
+          },
+          "Sakurajima": {
+            "$path": "assets/ServerStorage/base-Sakurajima-Model-2c71d200ace5.rbxm",
+            "Sakurajima": {
+              "$path": "src/ServerStorage/Assets/Companions/Sakurajima/Sakurajima.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-d0a869f3a9dd.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-561ca04fbb2f.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-f8c47b92c107.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-0d3a273bd9de.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-fd6d2c43e19c.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-c412ae3f99d6.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-60634cddf9c4.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-0905d1f02dd5.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-25d10b504f52.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-2a2cfeac87fc.rbxm"
+              }
+            }
+          },
+          "The Planet": {
+            "$path": "assets/ServerStorage/base-The~20Planet-Model-375a9981e07d.rbxm",
+            "The Planet": {
+              "$path": "src/ServerStorage/Assets/Companions/The~20Planet/The~20Planet.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-05b3ca74ff7d.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-18bb6df91868.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-e13af2b0dbeb.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-57decdf212ae.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-a8f72c34f1c1.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-8482cb02daa3.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-7040eb04eb70.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-e2c5e85b4924.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-2498019598f7.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-78e15a0755a7.rbxm"
+              }
+            }
+          },
+          "Yoruichi": {
+            "$path": "assets/ServerStorage/base-Yoruichi-Model-37411d255485.rbxm",
+            "Yoruichi": {
+              "$path": "src/ServerStorage/Assets/Companions/Yoruichi/Yoruichi.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-87e43f1a8d95.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-5472da485af3.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-bd929e2f2abf.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-ec005ce63727.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-00f316b0ed12.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-e543fb196c8f.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-5acc1097e7ba.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-341b00d123a6.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-6e46db54c36e.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-60a545f63c8b.rbxm"
+              }
+            }
+          },
+          "ZIO": {
+            "$path": "assets/ServerStorage/base-ZIO-Model-b55338e0a2e8.rbxm",
+            "ZIO": {
+              "$path": "src/ServerStorage/Assets/Companions/ZIO/ZIO.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-1c65fb136e50.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-40ad41d46a15.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-9478e9871b66.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-fe12522437c1.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-b583b45c08e9.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-7d83fef69e4a.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-fc545271ed33.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-4a4d9270a915.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-f03356542c66.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-af5f5bab84ca.rbxm"
+              }
+            }
+          },
+          "Zaruto": {
+            "$path": "assets/ServerStorage/base-Zaruto-Model-5fa82a94e0cf.rbxm",
+            "Default": {
+              "$path": "src/ServerStorage/Assets/Companions/Zaruto/Default.server.luau",
+              "climb": {
+                "$path": "assets/ServerStorage/tree-climb-StringValue-d62f3d40fa7e.rbxm"
+              },
+              "fall": {
+                "$path": "assets/ServerStorage/tree-fall-StringValue-677e60d0582e.rbxm"
+              },
+              "idle": {
+                "$path": "assets/ServerStorage/tree-idle-StringValue-9b2750fe9a3c.rbxm"
+              },
+              "jump": {
+                "$path": "assets/ServerStorage/tree-jump-StringValue-5b42dbd1878b.rbxm"
+              },
+              "run": {
+                "$path": "assets/ServerStorage/tree-run-StringValue-3dbb5d69fe7f.rbxm"
+              },
+              "sit": {
+                "$path": "assets/ServerStorage/tree-sit-StringValue-6cba79a3695d.rbxm"
+              },
+              "swim": {
+                "$path": "assets/ServerStorage/tree-swim-StringValue-653015e5c8c3.rbxm"
+              },
+              "swimidle": {
+                "$path": "assets/ServerStorage/tree-swimidle-StringValue-5f8426dcfdb6.rbxm"
+              },
+              "toolnone": {
+                "$path": "assets/ServerStorage/tree-toolnone-StringValue-cf4243296482.rbxm"
+              },
+              "walk": {
+                "$path": "assets/ServerStorage/tree-walk-StringValue-0c964f88b4bf.rbxm"
+              }
+            }
+          }
+        }
+      },
+      "Debug": {
+        "$path": "assets/ServerStorage/base-Debug-ScreenGui-217e350f26b4.rbxm",
+        "DebugMenu": {
+          "$path": "assets/ServerStorage/base-DebugMenu-Frame-98ea2e4ffaa3.rbxm",
+          "CloseButton": {
+            "$path": "assets/ServerStorage/base-CloseButton-TextButton-c9e44c96fc77.rbxm",
+            "LocalScript": {
+              "$path": "src/ServerStorage/Debug/DebugMenu/CloseButton/LocalScript.client.luau"
+            }
+          },
+          "Container": {
+            "$path": "assets/ServerStorage/base-Container-Frame-1adc639e5039.rbxm",
+            "Reset": {
+              "$path": "assets/ServerStorage/base-Reset-TextButton-54c61d5362fe.rbxm",
+              "LocalScript": {
+                "$path": "src/ServerStorage/Debug/DebugMenu/Container/Reset/LocalScript.client.luau"
+              }
+            },
+            "Spin": {
+              "$path": "assets/ServerStorage/base-Spin-TextButton-1ab20d6565fa.rbxm",
+              "Spin": {
+                "$path": "src/ServerStorage/Debug/DebugMenu/Container/Spin/Spin.client.luau"
+              }
+            },
+            "Summon": {
+              "$path": "assets/ServerStorage/base-Summon-TextButton-d9c1d152c11b.rbxm",
+              "Summon_Companion": {
+                "$path": "src/ServerStorage/Debug/DebugMenu/Container/Summon/Summon_Companion.client.luau"
+              }
+            }
+          }
+        },
+        "TextButton": {
+          "$path": "assets/ServerStorage/base-TextButton-TextButton-7b66a63e3525.rbxm",
+          "LocalScript": {
+            "$path": "src/ServerStorage/Debug/TextButton/LocalScript.client.luau"
+          }
+        }
+      },
+      "archive": {
+        "$path": "assets/ServerStorage/base-archive-Folder-71bfbe0bde7d.rbxm",
+        "MainUI": {
+          "$path": "src/ServerStorage/archive/MainUI.luau",
+          "Components": {
+            "$path": "assets/ServerStorage/base-Components-Folder-7b5c186f97e5.rbxm",
+            "GAME_VERSION": {
+              "$path": "src/ServerStorage/archive/MainUI/Components/GAME_VERSION.luau"
+            },
+            "HOURLY_REFRESH": {
+              "$path": "src/ServerStorage/archive/MainUI/Components/HOURLY_REFRESH.luau"
+            },
+            "MONEY": {
+              "$path": "src/ServerStorage/archive/MainUI/Components/MONEY.luau"
+            },
+            "MUSIC": {
+              "$path": "src/ServerStorage/archive/MainUI/Components/MUSIC.luau"
+            },
+            "NOTIFICATIONS": {
+              "$path": "src/ServerStorage/archive/MainUI/Components/NOTIFICATIONS.luau"
+            },
+            "PLAYER_STAGE": {
+              "$path": "src/ServerStorage/archive/MainUI/Components/PLAYER_STAGE.luau"
+            },
+            "SERVER_AGE": {
+              "$path": "src/ServerStorage/archive/MainUI/Components/SERVER_AGE.luau"
+            },
+            "SERVER_INFO": {
+              "$path": "src/ServerStorage/archive/MainUI/Components/SERVER_INFO.luau"
+            },
+            "SKIPS": {
+              "$path": "src/ServerStorage/archive/MainUI/Components/SKIPS.luau"
+            },
+            "TSUNOVIUM": {
+              "$path": "src/ServerStorage/archive/MainUI/Components/TSUNOVIUM.luau"
+            },
+            "USER_INFO": {
+              "$path": "src/ServerStorage/archive/MainUI/Components/USER_INFO.luau"
+            }
+          }
+        }
+      }
+    },
+    "SoundService": {
+      "$path": "assets/SoundService/service-SoundService-SoundService-331597eaa598.rbxm"
+    },
+    "StarterGui": {
+      "$path": "assets/StarterGui/service-StarterGui-StarterGui-755ef3484200.rbxm"
+    },
+    "StarterPlayer": {
+      "$path": "assets/StarterPlayer/service-StarterPlayer-StarterPlayer-c7e74a0828e3.rbxm",
+      "StarterCharacterScripts": {
+        "$path": "assets/StarterPlayer/base-StarterCharacterScripts-StarterCharacterScripts-e4fa97efd073.rbxm",
+        "Health": {
+          "$path": "src/StarterPlayer/StarterCharacterScripts/Health.client.luau"
+        },
+        "Mouse": {
+          "$path": "src/StarterPlayer/StarterCharacterScripts/Mouse.client.luau"
+        },
+        "Remove": {
+          "$path": "src/StarterPlayer/StarterCharacterScripts/Remove.client.luau"
+        },
+        "RemoveFling": {
+          "$path": "src/StarterPlayer/StarterCharacterScripts/RemoveFling.client.luau"
+        }
+      },
+      "StarterPlayerScripts": {
+        "$path": "assets/StarterPlayer/base-StarterPlayerScripts-StarterPlayerScripts-224b03af838d.rbxm",
+        "Client": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/Client.client.luau"
+        },
+        "ClientRuntime": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/ClientRuntime.client.luau",
+          "CreditsToTheGoat": {
+            "$path": "src/StarterPlayer/StarterPlayerScripts/ClientRuntime/CreditsToTheGoat.client.luau"
+          }
+        },
+        "Controllers": {
+          "$path": "assets/StarterPlayer/base-Controllers-Folder-ff04aa4cdedb.rbxm",
+          "MusicController": {
+            "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/MusicController.luau"
+          },
+          "PlayerCharacterController": {
+            "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerCharacterController.luau"
+          },
+          "PlayerInteractionController": {
+            "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerInteractionController.luau"
+          },
+          "PlayerUIController": {
+            "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController.luau",
+            "CompanionsUI": {
+              "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/CompanionsUI.luau",
+              "Components": {
+                "$path": "assets/StarterPlayer/base-Components-Folder-7fb36de3622c.rbxm",
+                "COMPANIONSICON": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/CompanionsUI/Components/COMPANIONSICON.luau"
+                },
+                "HOLDER": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/CompanionsUI/Components/HOLDER.luau"
+                },
+                "MONEY": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/CompanionsUI/Components/MONEY.luau"
+                },
+                "SPINHOLDER": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/CompanionsUI/Components/SPINHOLDER.luau"
+                },
+                "TOPBAR": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/CompanionsUI/Components/TOPBAR.luau"
+                },
+                "TSUNOVIUM": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/CompanionsUI/Components/TSUNOVIUM.luau"
+                },
+                "UNSUMMON": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/CompanionsUI/Components/UNSUMMON.luau"
+                }
+              }
+            },
+            "MainUI": {
+              "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/MainUI.luau",
+              "Components": {
+                "$path": "assets/StarterPlayer/base-Components-Folder-449dda9dcc9d.rbxm",
+                "CURRENCIES": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/MainUI/Components/CURRENCIES.luau"
+                },
+                "INFO": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/MainUI/Components/INFO.luau"
+                },
+                "MUSIC": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/MainUI/Components/MUSIC.luau"
+                },
+                "NOTIFICATIONS": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/MainUI/Components/NOTIFICATIONS.luau"
+                },
+                "REFRESH": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/MainUI/Components/REFRESH.luau"
+                },
+                "STAGE": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/MainUI/Components/STAGE.luau"
+                }
+              }
+            },
+            "MusicUI": {
+              "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/MusicUI.luau",
+              "Components": {
+                "$path": "assets/StarterPlayer/base-Components-Folder-15861668e2e7.rbxm",
+                "DJ": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/MusicUI/Components/DJ.luau"
+                },
+                "HOLDER": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/MusicUI/Components/HOLDER.luau"
+                },
+                "TOPBAR": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/MusicUI/Components/TOPBAR.luau"
+                }
+              }
+            },
+            "SettingsUI": {
+              "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/SettingsUI.luau",
+              "Components": {
+                "$path": "assets/StarterPlayer/base-Components-Folder-70c458c75500.rbxm",
+                "HOLDER": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/SettingsUI/Components/HOLDER.luau"
+                },
+                "SETTINGSICON": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/SettingsUI/Components/SETTINGSICON.luau"
+                },
+                "TOPBAR": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/SettingsUI/Components/TOPBAR.luau"
+                }
+              }
+            },
+            "ShopUI": {
+              "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/ShopUI.luau",
+              "Components": {
+                "$path": "assets/StarterPlayer/base-Components-Folder-000c2b14080f.rbxm",
+                "HOLDER": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/ShopUI/Components/HOLDER.luau"
+                },
+                "MONEY": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/ShopUI/Components/MONEY.luau"
+                },
+                "SHOPKEEPER": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/ShopUI/Components/SHOPKEEPER.luau"
+                },
+                "TOPBAR": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/ShopUI/Components/TOPBAR.luau"
+                },
+                "TSUNOVIUM": {
+                  "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PlayerUIController/ShopUI/Components/TSUNOVIUM.luau"
+                }
+              }
+            }
+          },
+          "ReplicaHandler": {
+            "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers/ReplicaHandler.luau"
+          }
+        }
+      }
+    },
+    "TextChatService": {
+      "$path": "assets/TextChatService/service-TextChatService-TextChatService-b3d9b0f14f8a.rbxm"
+    },
+    "UGCAvatarService": {
+      "$path": "assets/UGCAvatarService/service-UGCAvatarService-UGCAvatarService-c8884bd2463e.rbxm"
+    },
+    "Workspace": {
+      "$path": "assets/Workspace/service-Workspace-Workspace-dfc7764c23a5.rbxm",
+      "Leaderboards": {
+        "$path": "assets/Workspace/base-Leaderboards-Folder-25591d22e342.rbxm",
+        "Robux_Spent": {
+          "$path": "assets/Workspace/base-Robux_Spent-Model-561bdcbf40d4.rbxm",
+          "NPC_TEMPLATE": {
+            "$path": "assets/Workspace/base-NPC_TEMPLATE-Model-5c4ec9eefaad.rbxm",
+            "Script": {
+              "$path": "src/Workspace/Leaderboards/Robux_Spent/NPC_TEMPLATE/Script.server.luau",
+              "DanceAnimation": {
+                "$path": "assets/Workspace/tree-DanceAnimation-Animation-730c8274f39a.rbxm"
+              }
+            },
+            "headFollow": {
+              "$path": "src/Workspace/Leaderboards/Robux_Spent/NPC_TEMPLATE/headFollow.server.luau"
+            }
+          }
+        },
+        "Time_Spent": {
+          "$path": "assets/Workspace/base-Time_Spent-Model-72b3db80d067.rbxm",
+          "NPC_TEMPLATE": {
+            "$path": "assets/Workspace/base-NPC_TEMPLATE-Model-d4c12d549ced.rbxm",
+            "Script": {
+              "$path": "src/Workspace/Leaderboards/Time_Spent/NPC_TEMPLATE/Script.server.luau",
+              "DanceAnimation": {
+                "$path": "assets/Workspace/tree-DanceAnimation-Animation-ac61131108c9.rbxm"
+              }
+            },
+            "headFollow": {
+              "$path": "src/Workspace/Leaderboards/Time_Spent/NPC_TEMPLATE/headFollow.server.luau"
+            }
+          }
+        },
+        "Times_Finished": {
+          "$path": "assets/Workspace/base-Times_Finished-Model-2ba4b4cf6785.rbxm",
+          "NPC_TEMPLATE": {
+            "$path": "assets/Workspace/base-NPC_TEMPLATE-Model-65ddabb6a69d.rbxm",
+            "Script": {
+              "$path": "src/Workspace/Leaderboards/Times_Finished/NPC_TEMPLATE/Script.server.luau",
+              "DanceAnimation": {
+                "$path": "assets/Workspace/tree-DanceAnimation-Animation-451677b1f3c3.rbxm"
+              }
+            },
+            "headFollow": {
+              "$path": "src/Workspace/Leaderboards/Times_Finished/NPC_TEMPLATE/headFollow.server.luau"
+            }
+          }
+        }
+      }
+    }
+  }
+}
